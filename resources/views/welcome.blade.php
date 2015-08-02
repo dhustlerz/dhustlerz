@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">D-Hustlerz Coming Soon</div>
+                <div class="title">D-Hustlerz with fresh look</div>
             </div>
         </div>
     </body>
