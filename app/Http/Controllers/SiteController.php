@@ -9,7 +9,14 @@ use App\Http\Controllers\Controller;
 
 class SiteController extends Controller
 {
-  public function index(){
+  public function index()
+  {
     return view('index');
+  }
+
+
+  public function contact()
+  {
+  	return view('contact');
   }
 }
