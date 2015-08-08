@@ -16,5 +16,5 @@
 // });
 
 Route::get ('/','SiteController@index');
-Route::get('contact','SiteController@contact');
+Route::get('/contact','SiteController@contact');
 
