@@ -15,8 +15,8 @@ class SiteController extends Controller
   }
 
 
-  public function contact()
+  public function mycontact()
   {
-  	return view('contact');
+  	return view('mycontact');
   }
 }
