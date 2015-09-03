@@ -1,0 +1,147 @@
+.ms-gallery-template .ms-gallery-botcont {
+	height: 55px;
+	background: #FFFFFF;
+	color: #221918;
+	font-weight: normal;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	position: relative;
+}
+.ms-gallery-template .ms-gal-playbtn {
+	width: 55px;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	background: url(btns-purple.png) no-repeat 6px 6px;
+}
+.ms-gallery-template .ms-gal-playbtn.btn-pause {
+	background: url(btns-purple.png) no-repeat -55px 7px;
+}
+
+.ms-gallery-template .ms-gal-thumbtoggle {
+	position: absolute;
+	right: 0;
+	width: 55px;
+	height: 100%;
+	cursor: pointer;
+	background: url(btns-purple.png) no-repeat -53px -41px;
+}
+.ms-gallery-template .ms-gal-thumbtoggle.btn-hide {
+	background: url(btns-purple.png) no-repeat 4px -41px;
+}
+
+.ms-gallery-template .ms-slide-num {
+	float: left;
+	padding: 17px 9px;
+	color: #727272;
+}
+.ms-gallery-template .ms-slide-info {
+	float: left;
+	padding: 17px 8px;
+}
+
+.ms-gallery-template .ms-bullets.ms-dir-h {
+	position: absolute;
+	bottom: 15px;
+	right: 55px;
+	width: 100px;
+}
+
+.ms-gallery-template .ms-bullet {
+	width: 14px;
+	height: 14px;
+	background: #af7ac4;
+	margin: 4px;
+	border-radius: 15px;
+	border: 2px solid #FFFFFF;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-o-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.ms-gallery-template .ms-bullet-selected {
+	background-color: white;
+}
+
+.ms-gallery-template .ms-timerbar {
+	width: 100%;
+	top: -4px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.32);
+}
+
+.ms-gallery-template .ms-time-bar {
+	height: 4px;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.ms-gallery-template .ms-thumb-list.ms-dir-h {
+	width: 100%;
+	background: black;
+	background: rgba(0, 0, 0, 0.95);
+	padding-top: 1px;
+}
+
+.ms-gallery-template .ms-thumb-frame {
+	cursor: pointer;
+	float: left;
+	width: 175px;
+	overflow: hidden;
+	opacity: 0.5;
+	-webkit-transition: opacity 400ms;
+	-moz-transition: opacity 400ms;
+	-ms-transition: opacity 400ms;
+	-o-transition: opacity 400ms;
+	transition: opacity 400ms;
+}
+
+.ms-gallery-template .ms-thumb-frame-selected {
+	opacity: 1;
+}
+
+.ms-gallery-template .ms-gal-thumbcont {
+	overflow: hidden;
+	width: 100%;
+	height: 115px;
+	position: absolute;
+	top: -115px;
+	left: 0;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+}
+
+.ms-gallery-template .ms-gal-thumbcont.hide-thumbs {
+	height: 0;
+	top: 0;
+}
+
+@media (max-width: 570px) {
+	.ms-gallery-template .ms-slide-info {
+		display: none;
+	}
+}
+
+/* Layers */
+.ms-layer.video-title {
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 42px;
+    margin:0px;
+    letter-spacing:0px;
+}
+
+.ms-layer.video-title.video-top-title {
+    font-size: 16px;
+    color: gray;
+}
+
+.ms-layer.video-title.video-sub-title {
+    font-size: 22px;
+    font-weight: 300;
+}
+

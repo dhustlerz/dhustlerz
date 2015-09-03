@@ -11,12 +11,12 @@ class SiteController extends Controller
 {
   public function index()
   {
-    return view('index');
+    return view('mainsite.landingpage');
   }
 
 
-  public function mycontact()
-  {
-  	return view('mycontact');
-  }
+  // public function mycontact()
+  // {
+  // 	return view('mycontact');
+  // }
 }

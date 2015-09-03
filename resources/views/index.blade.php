@@ -4,11 +4,13 @@
 @stop
 
 @section('header')
-	<div>Hello</div>
+
 @stop
+
 @section('content')
+<h1>Hello</h1>
 @stop
-  
+
 @section('JavaScripts')
   <script src=""></script>
 @stop

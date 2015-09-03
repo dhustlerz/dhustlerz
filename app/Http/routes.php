@@ -11,9 +11,9 @@
 |
 */
 
-//Route::get('mycontact', function () {
-   //return view('mycontact');
-//});
+// Route::get('mycontact', function () {
+//    return view('mycontact');
+// });
 
 Route::get ('/','SiteController@index');
 //Route::get('/mycontact','SiteController@mycontact');
